@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38502B32891611AF0758B01B /* Pods_ContactsGoJekTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C72EEE2C87F92844AC2CB9B /* Pods_ContactsGoJekTests.framework */; };
 		BC9D217B1E8558D6009A9892 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D217A1E8558D6009A9892 /* AppDelegate.swift */; };
 		BC9D217D1E8558D6009A9892 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D217C1E8558D6009A9892 /* ViewController.swift */; };
 		BC9D21801E8558D6009A9892 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC9D217E1E8558D6009A9892 /* Main.storyboard */; };
@@ -14,6 +15,11 @@
 		BC9D21851E8558D6009A9892 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC9D21831E8558D6009A9892 /* LaunchScreen.storyboard */; };
 		BC9D21901E8558D6009A9892 /* ContactsGoJekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D218F1E8558D6009A9892 /* ContactsGoJekTests.swift */; };
 		BC9D219B1E8558D6009A9892 /* ContactsGoJekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D219A1E8558D6009A9892 /* ContactsGoJekUITests.swift */; };
+		BC9D21B21E856739009A9892 /* NetworkWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D21B11E856739009A9892 /* NetworkWrapper.swift */; };
+		BC9D21B41E856796009A9892 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D21B31E856796009A9892 /* Service.swift */; };
+		BC9D21B61E8567C6009A9892 /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9D21B51E8567C6009A9892 /* NetworkConstants.swift */; };
+		C61F86A7B32EF843B54AB17C /* Pods_ContactsGoJek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9002A0A657B5203172385BDA /* Pods_ContactsGoJek.framework */; };
+		EEF0D2BE15062D7510A3A0F8 /* Pods_ContactsGoJekUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18FAA2AF9E3F2F68BE55F4F5 /* Pods_ContactsGoJekUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04C4C6855549486CF5F8C41F /* Pods-ContactsGoJekUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactsGoJekUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ContactsGoJekUITests/Pods-ContactsGoJekUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0C72EEE2C87F92844AC2CB9B /* Pods_ContactsGoJekTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContactsGoJekTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17ADBEB98D35C6C7A425B6B9 /* Pods-ContactsGoJekTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactsGoJekTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ContactsGoJekTests/Pods-ContactsGoJekTests.release.xcconfig"; sourceTree = "<group>"; };
+		18FAA2AF9E3F2F68BE55F4F5 /* Pods_ContactsGoJekUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContactsGoJekUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28C961E973E05696B16ED545 /* Pods-ContactsGoJek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactsGoJek.release.xcconfig"; path = "Pods/Target Support Files/Pods-ContactsGoJek/Pods-ContactsGoJek.release.xcconfig"; sourceTree = "<group>"; };
+		2B015427376AA86BD85C1C57 /* Pods-ContactsGoJekUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactsGoJekUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ContactsGoJekUITests/Pods-ContactsGoJekUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9002A0A657B5203172385BDA /* Pods_ContactsGoJek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContactsGoJek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9D21771E8558D6009A9892 /* ContactsGoJek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsGoJek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9D217A1E8558D6009A9892 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC9D217C1E8558D6009A9892 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,12 @@
 		BC9D21961E8558D6009A9892 /* ContactsGoJekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsGoJekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9D219A1E8558D6009A9892 /* ContactsGoJekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsGoJekUITests.swift; sourceTree = "<group>"; };
 		BC9D219C1E8558D6009A9892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC9D21AE1E856404009A9892 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		BC9D21B11E856739009A9892 /* NetworkWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkWrapper.swift; sourceTree = "<group>"; };
+		BC9D21B31E856796009A9892 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		BC9D21B51E8567C6009A9892 /* NetworkConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		E8C3524B6E60B1FD5A4B470C /* Pods-ContactsGoJek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactsGoJek.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ContactsGoJek/Pods-ContactsGoJek.debug.xcconfig"; sourceTree = "<group>"; };
+		E908F3BE71CF5F3B44AF0CB8 /* Pods-ContactsGoJekTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactsGoJekTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ContactsGoJekTests/Pods-ContactsGoJekTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C61F86A7B32EF843B54AB17C /* Pods_ContactsGoJek.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38502B32891611AF0758B01B /* Pods_ContactsGoJekTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +89,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEF0D2BE15062D7510A3A0F8 /* Pods_ContactsGoJekUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DA62CAD9121F5F2CA451C7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8C3524B6E60B1FD5A4B470C /* Pods-ContactsGoJek.debug.xcconfig */,
+				28C961E973E05696B16ED545 /* Pods-ContactsGoJek.release.xcconfig */,
+				E908F3BE71CF5F3B44AF0CB8 /* Pods-ContactsGoJekTests.debug.xcconfig */,
+				17ADBEB98D35C6C7A425B6B9 /* Pods-ContactsGoJekTests.release.xcconfig */,
+				04C4C6855549486CF5F8C41F /* Pods-ContactsGoJekUITests.debug.xcconfig */,
+				2B015427376AA86BD85C1C57 /* Pods-ContactsGoJekUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BC9D216E1E8558D5009A9892 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +116,8 @@
 				BC9D218E1E8558D6009A9892 /* ContactsGoJekTests */,
 				BC9D21991E8558D6009A9892 /* ContactsGoJekUITests */,
 				BC9D21781E8558D6009A9892 /* Products */,
+				2DA62CAD9121F5F2CA451C7B /* Pods */,
+				D10BE55E20A460272429902C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +134,8 @@
 		BC9D21791E8558D6009A9892 /* ContactsGoJek */ = {
 			isa = PBXGroup;
 			children = (
+				BC9D21B71E856C0F009A9892 /* DataController */,
+				BC9D21B01E856717009A9892 /* NetworkLayer */,
 				BC9D217A1E8558D6009A9892 /* AppDelegate.swift */,
 				BC9D217C1E8558D6009A9892 /* ViewController.swift */,
 				BC9D217E1E8558D6009A9892 /* Main.storyboard */,
@@ -125,6 +164,34 @@
 			path = ContactsGoJekUITests;
 			sourceTree = "<group>";
 		};
+		BC9D21B01E856717009A9892 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				BC9D21B11E856739009A9892 /* NetworkWrapper.swift */,
+				BC9D21B51E8567C6009A9892 /* NetworkConstants.swift */,
+				BC9D21B31E856796009A9892 /* Service.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		BC9D21B71E856C0F009A9892 /* DataController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DataController;
+			sourceTree = "<group>";
+		};
+		D10BE55E20A460272429902C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC9D21AE1E856404009A9892 /* Alamofire.framework */,
+				9002A0A657B5203172385BDA /* Pods_ContactsGoJek.framework */,
+				0C72EEE2C87F92844AC2CB9B /* Pods_ContactsGoJekTests.framework */,
+				18FAA2AF9E3F2F68BE55F4F5 /* Pods_ContactsGoJekUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC9D219F1E8558D6009A9892 /* Build configuration list for PBXNativeTarget "ContactsGoJek" */;
 			buildPhases = (
+				B94DE69D8ADA67165A0E7A4A /* 📦 Check Pods Manifest.lock */,
 				BC9D21731E8558D6009A9892 /* Sources */,
 				BC9D21741E8558D6009A9892 /* Frameworks */,
 				BC9D21751E8558D6009A9892 /* Resources */,
+				59ECE4B9EAFBAFD1D13041B0 /* 📦 Embed Pods Frameworks */,
+				C63797CD7F539CFAD1185DB3 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC9D21A21E8558D6009A9892 /* Build configuration list for PBXNativeTarget "ContactsGoJekTests" */;
 			buildPhases = (
+				7A6A5D0A8098BAE5C84922C5 /* 📦 Check Pods Manifest.lock */,
 				BC9D21871E8558D6009A9892 /* Sources */,
 				BC9D21881E8558D6009A9892 /* Frameworks */,
 				BC9D21891E8558D6009A9892 /* Resources */,
+				E69E6F790F44E76D51160451 /* 📦 Embed Pods Frameworks */,
+				5974C1EA022AFEDA7ECFF499 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +240,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC9D21A51E8558D6009A9892 /* Build configuration list for PBXNativeTarget "ContactsGoJekUITests" */;
 			buildPhases = (
+				3A28D5DF95AE734CB81C90E1 /* 📦 Check Pods Manifest.lock */,
 				BC9D21921E8558D6009A9892 /* Sources */,
 				BC9D21931E8558D6009A9892 /* Frameworks */,
 				BC9D21941E8558D6009A9892 /* Resources */,
+				307FE9C6D25EB43957487B69 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +268,7 @@
 				TargetAttributes = {
 					BC9D21761E8558D6009A9892 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = E87TYV2U4N;
 						ProvisioningStyle = Automatic;
 					};
 					BC9D218A1E8558D6009A9892 = {
@@ -254,12 +330,138 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		307FE9C6D25EB43957487B69 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ContactsGoJekUITests/Pods-ContactsGoJekUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A28D5DF95AE734CB81C90E1 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5974C1EA022AFEDA7ECFF499 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ContactsGoJekTests/Pods-ContactsGoJekTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59ECE4B9EAFBAFD1D13041B0 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ContactsGoJek/Pods-ContactsGoJek-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A6A5D0A8098BAE5C84922C5 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B94DE69D8ADA67165A0E7A4A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C63797CD7F539CFAD1185DB3 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ContactsGoJek/Pods-ContactsGoJek-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E69E6F790F44E76D51160451 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ContactsGoJekTests/Pods-ContactsGoJekTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BC9D21731E8558D6009A9892 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BC9D217D1E8558D6009A9892 /* ViewController.swift in Sources */,
+				BC9D21B41E856796009A9892 /* Service.swift in Sources */,
+				BC9D21B61E8567C6009A9892 /* NetworkConstants.swift in Sources */,
+				BC9D21B21E856739009A9892 /* NetworkWrapper.swift in Sources */,
 				BC9D217B1E8558D6009A9892 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,8 +612,14 @@
 		};
 		BC9D21A01E8558D6009A9892 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8C3524B6E60B1FD5A4B470C /* Pods-ContactsGoJek.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E87TYV2U4N;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Alamofire",
+				);
 				INFOPLIST_FILE = ContactsGoJek/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ankit.ContactsGoJek;
@@ -422,8 +630,14 @@
 		};
 		BC9D21A11E8558D6009A9892 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28C961E973E05696B16ED545 /* Pods-ContactsGoJek.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E87TYV2U4N;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Alamofire",
+				);
 				INFOPLIST_FILE = ContactsGoJek/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ankit.ContactsGoJek;
@@ -434,6 +648,7 @@
 		};
 		BC9D21A31E8558D6009A9892 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E908F3BE71CF5F3B44AF0CB8 /* Pods-ContactsGoJekTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +663,7 @@
 		};
 		BC9D21A41E8558D6009A9892 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17ADBEB98D35C6C7A425B6B9 /* Pods-ContactsGoJekTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +678,7 @@
 		};
 		BC9D21A61E8558D6009A9892 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04C4C6855549486CF5F8C41F /* Pods-ContactsGoJekUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ContactsGoJekUITests/Info.plist;
@@ -475,6 +692,7 @@
 		};
 		BC9D21A71E8558D6009A9892 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B015427376AA86BD85C1C57 /* Pods-ContactsGoJekUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ContactsGoJekUITests/Info.plist;
@@ -505,6 +723,7 @@
 				BC9D21A11E8558D6009A9892 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC9D21A21E8558D6009A9892 /* Build configuration list for PBXNativeTarget "ContactsGoJekTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +732,7 @@
 				BC9D21A41E8558D6009A9892 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC9D21A51E8558D6009A9892 /* Build configuration list for PBXNativeTarget "ContactsGoJekUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +741,7 @@
 				BC9D21A71E8558D6009A9892 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
